@@ -51,7 +51,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: rgb(112, 134, 255); /* Example color */
+    background-color: rgb(112, 134, 255); 
 }
 
 #rodape{
@@ -60,10 +60,21 @@ nav ul li a:hover {
 }
 .flex{
     display: flex;
+    flex-wrap: wrap;
 }
 
 img{
-    width: 400px;
-    height: 300px; 
-    
+    width: 315x;
+    height: 250px; 
+  
+}
+
+
+
+.roupa {
+    background-color: aqua;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    text-align: center;
 }
